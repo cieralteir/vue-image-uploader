@@ -66,9 +66,7 @@ export default {
     },
     uploads: {
       type: Array,
-      default: function() {
-        return [];
-      }
+      default: () => []
     },
     multiple: {
       type: Boolean,
